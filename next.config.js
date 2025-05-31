@@ -2,7 +2,6 @@ const path = require("path");
 
 module.exports = {
   sassOptions: {
-    includePaths: [path.join(__dirname, "src", "styles")],
+    includePaths: [path.join(__dirname, "src","public", "styles")],
   },
-  assetPrefix: '/portfolio/',
 };
