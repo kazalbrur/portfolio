@@ -1,15 +1,14 @@
 "use client";
-import React from "react";
 import {
+  Box,
   Card,
   CardBody,
-  Image,
-  Heading,
-  Text,
-  Flex,
-  Box,
-  VStack,
   Divider,
+  Flex,
+  Heading,
+  Image,
+  Text,
+  VStack,
 } from "@chakra-ui/react";
 
 const WorkCard = (props) => {
@@ -18,30 +17,30 @@ const WorkCard = (props) => {
 
   return (
     <>
-      <Card 
-        my={3} 
+      <Card
+        my={3}
         transition="all .3s ease-in-out"
         backgroundColor="blueTheme.card"
-        _hover={{transform:"scale(0.99)"}} 
+        _hover={{ transform: "scale(0.99)" }}
         width="80vw"
         boxShadow="0 10px 30px -15px blueTheme.navShadow"
       >
         <CardBody>
-          <Flex 
-            flexDirection={["column", "column", "row"]} 
+          <Flex
+            flexDirection={["column", "column", "row"]}
             gap={8}
             alignItems="flex-start"
           >
-            <Box 
-              width={["100%", "100%", "200px"]} 
-              display="flex" 
-              flexDirection="column" 
+            <Box
+              width={["100%", "100%", "200px"]}
+              display="flex"
+              flexDirection="column"
               alignItems="center"
               position="relative"
             >
               <Image
                 objectFit="contain"
-                src={`/images/${companyImg}`}
+                src={`./images/${companyImg}`}
                 alt="Company Logo"
                 height={["120px", "120px", "150px"]}
                 width={["120px", "120px", "150px"]}
@@ -51,8 +50,8 @@ const WorkCard = (props) => {
                 boxShadow="0 4px 12px rgba(0,0,0,0.1)"
                 marginBottom={4}
               />
-              <Heading 
-                fontSize="1.5rem" 
+              <Heading
+                fontSize="1.5rem"
                 textAlign="center"
                 color="blueTheme.primary"
                 fontWeight="bold"
@@ -61,7 +60,7 @@ const WorkCard = (props) => {
               </Heading>
             </Box>
 
-            <Box 
+            <Box
               width={["100%", "100%", "calc(100% - 200px)"]}
               borderLeft={["none", "none", "2px solid"]}
               borderColor={["transparent", "transparent", "blueTheme.primary"]}
@@ -71,21 +70,21 @@ const WorkCard = (props) => {
                 {roles.map((role, index) => (
                   <Box key={index} position="relative">
                     {hasMultipleRoles && index > 0 && (
-                      <Divider 
-                        orientation="vertical" 
-                        position="absolute" 
-                        left="1.5rem" 
-                        top="-2rem" 
-                        height="2rem" 
+                      <Divider
+                        orientation="vertical"
+                        position="absolute"
+                        left="1.5rem"
+                        top="-2rem"
+                        height="2rem"
                         borderColor="blueTheme.primary"
                       />
                     )}
                     <Flex>
                       {hasMultipleRoles && (
-                        <Box 
-                          width="3rem" 
-                          height="3rem" 
-                          borderRadius="full" 
+                        <Box
+                          width="3rem"
+                          height="3rem"
+                          borderRadius="full"
                           backgroundColor="blueTheme.primary"
                           display="flex"
                           alignItems="center"
@@ -103,9 +102,9 @@ const WorkCard = (props) => {
                         <Heading size="sm" my={2} color="blueTheme.text">
                           {role.duration}
                         </Heading>
-                        <Text 
-                          size="xs" 
-                          my={2} 
+                        <Text
+                          size="xs"
+                          my={2}
                           fontStyle="italic"
                           color="blueTheme.primary"
                           fontWeight="medium"

@@ -46,7 +46,7 @@ const Page = () => {
               >
                 <Image
                   objectFit="cover"
-                  src="/images/profile.png"
+                  src="./images/profile.png"
                   alt="profile-image"
                   width="100%"
                   height="auto"

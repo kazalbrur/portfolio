@@ -44,7 +44,7 @@ export const metadata = {
     siteName: "Kazal Chandra Barman Portfolio",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "./images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Kazal Chandra Barman Portfolio Preview",
@@ -56,7 +56,7 @@ export const metadata = {
     title: "Kazal Chandra Barman | AI QA Engineer",
     description:
       "Explore Kazal's work in AI quality assurance, automation frameworks, and intelligent systems testing.",
-    images: ["/images/og-image.jpg"],
+    images: ["./images/og-image.jpg"],
     creator: "@kazalbarman", // Replace with actual handle if applicable
   },
   robots: {

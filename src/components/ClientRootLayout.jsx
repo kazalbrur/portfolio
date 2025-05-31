@@ -1,9 +1,8 @@
-"use client"
-import React from "react";
+"use client";
 import Script from "next/script";
-import { Providers } from "./Providers";
-import Header from "./Header";
 import "../styles/main.scss";
+import Header from "./Header";
+import { Providers } from "./Providers";
 
 const ClientRootLayout = ({ children }) => {
   return (
