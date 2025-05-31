@@ -2,34 +2,29 @@ import ClientRootLayout from "../components/ClientRootLayout";
 import Favicon from "/public/images/favicon.png";
 
 export const metadata = {
-  metadataBase: new URL("https://vaheedshaik.com"),
+  metadataBase: new URL("https://kazalbrur.github.io/portfolio/"), // Recommend using Kazal's domain
   title: {
-    default: "Kazal Chandra Barman | Software Quality Assurance Engineer",
+    default: "Kazal Chandra Barman | AI Test & QA Engineer",
     template: "%s | Kazal Chandra Barman",
   },
   description:
-    "Welcome to Kazal's Software Engineering Portfolio. Explore a diverse range of projects and see how I can bring your ideas to life. Let's connect and discuss your next venture!",
+    "Kazal Chandra Barman is a seasoned AI Test & QA Engineer with 5+ years of experience in machine learning, NLP, and computer vision. Explore his work in test automation, quality assurance, and AI product validation.",
   keywords: [
-    "portfolio",
-    "app",
-    "next.js 13",
-    "sass",
-    "scss",
-    "react",
-    "chakra",
-    "hashnode",
-    "best portfolio",
-    "best portfolio website",
-    "software engineer",
-    "web development",
-    "frontend developer",
-    "full stack developer",
-    "javascript",
-    "typescript",
-    "react developer",
-    "nextjs developer",
-    "portfolio website",
-    "developer portfolio",
+    "AI Test Engineer",
+    "Quality Assurance",
+    "Software QA",
+    "QA Automation",
+    "Machine Learning Testing",
+    "Computer Vision QA",
+    "NLP QA",
+    "Selenium",
+    "Postman",
+    "PyTest",
+    "Cypress",
+    "AI Testing Portfolio",
+    "Kazal Chandra Barman",
+    "Next Solution Lab",
+    "Bangladesh AI Engineer",
   ],
   authors: [{ name: "Kazal Chandra Barman" }],
   creator: "Kazal Chandra Barman",
@@ -42,10 +37,10 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://vaheedshaik.com",
-    title: "Kazal Chandra Barman | Software Engineer",
+    url: "https://kazalbrur.github.io/portfolio/", // Recommend switching from vaheedshaik.com
+    title: "Kazal Chandra Barman | AI Test & QA Engineer",
     description:
-      "Welcome to Kazal's Software Engineering Portfolio. Explore a diverse range of projects and see how I can bring your ideas to life. Let's connect and discuss your next venture!",
+      "Explore Kazal Chandra Barman’s portfolio in AI Testing and Software QA. Specializing in automated testing of machine learning, NLP, and computer vision systems.",
     siteName: "Kazal Chandra Barman Portfolio",
     images: [
       {
@@ -58,11 +53,11 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kazal Chandra Barman | Software Engineer",
+    title: "Kazal Chandra Barman | AI QA Engineer",
     description:
-      "Welcome to Kazal's Software Engineering Portfolio. Explore a diverse range of projects and see how I can bring your ideas to life.",
+      "Explore Kazal's work in AI quality assurance, automation frameworks, and intelligent systems testing.",
     images: ["/images/og-image.jpg"],
-    creator: "@vaheedshaik",
+    creator: "@kazalbarman", // Replace with actual handle if applicable
   },
   robots: {
     index: true,
