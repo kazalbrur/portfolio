@@ -373,7 +373,7 @@ export const workData = [
         duration: "March 2022 – Present",
         description: (
           <>
-            <ul>
+            <ul className="experience-list">
               <li>
                 Spearheaded a QA team focused on end-to-end testing of AI-based solutions, covering Machine Learning, NLP, and Computer Vision applications.
               </li>
@@ -392,7 +392,7 @@ export const workData = [
         duration: "February 2021 – February 2022",
         description: (
           <>
-            <ul>
+            <ul className="experience-list">
               <li>
                 Developed manual and automated test cases for AI models, focusing on validating functionality, regression, and model reliability.
               </li>
@@ -411,7 +411,7 @@ export const workData = [
         duration: "February 2020 – February 2021",
         description: (
           <>
-            <ul>
+            <ul className="experience-list">
               <li>
                 Coordinated cross-functional AI initiatives, managing test strategies and collaborating with engineers to track model development and testing milestones.
               </li>
@@ -433,7 +433,7 @@ export const workData = [
         duration: "August 2018 – December 2019",
         description: (
           <>
-            <ul>
+            <ul className="experience-list">
               <li>
                 Engineered computer vision and NLP systems using deep learning techniques and contributed to both development and testing cycles.
               </li>
@@ -455,7 +455,7 @@ export const workData = [
         duration: "November 2016 – August 2018",
         description: (
           <>
-            <ul>
+            <ul className="experience-list">
               <li>
                 Conducted foundational AI research in voice recognition, computer vision, and general-purpose AI, contributing to publications and lab experiments.
               </li>
@@ -477,7 +477,7 @@ export const workData = [
         duration: "December 2015 – August 2018",
         description: (
           <>
-            <ul>
+            <ul className="experience-list">
               <li>
                 Taught HTML, CSS, and PHP-based web design/development courses to students and professionals in vocational training programs.
               </li>
@@ -496,7 +496,7 @@ export const workData = [
         duration: "September 2015 – March 2016",
         description: (
           <>
-            <ul>
+            <ul className="experience-list">
               <li>
                 Developed user-friendly PHP web applications, assisted in debugging and deployment, and gained hands-on software engineering experience.
               </li>
@@ -618,7 +618,7 @@ export const projectsData = [
   },
   {
     type: "Study Material",
-    title: "Lict Java Training",
+    title: "Lict JavaTraining",
     image: "LICT_Java",
     link: null,
     source: "https://github.com/kazalbrur/LictJavaTraining",
