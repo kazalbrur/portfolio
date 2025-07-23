@@ -370,37 +370,70 @@ export const workData = [
     roles: [
       {
         designation: "Lead AI Test Engineer",
-        duration: "March 2022 – Present",
+        duration: "December 2023 – Present",
         description: (
           <>
             <ul className="experience-list">
               <li>
-                Spearheaded a QA team focused on end-to-end testing of AI-based solutions, covering Machine Learning, NLP, and Computer Vision applications.
+                Lead comprehensive QA strategy and execution across AI‐driven platforms, AI chatbots, AI Agent and MVPs, ensuring smooth and stable product releases in rapid sprint cycles.
               </li>
               <li>
-                Designed and executed test strategies, automated workflows using Selenium, Cypress, and Postman to enhance release quality and speed.
+                Deliver robust end‐to‐end testing for Virtual Tryon application, validating 2D body mapping accuracy, virtual try‐on functionality, and camera‐based hand gesture interaction.
               </li>
               <li>
-                Conducted code reviews, mentored junior QA engineers, and led Agile ceremonies to ensure process alignment and productivity.
+                Execute comprehensive testing for Car Selling E‐commerce platform, covering UI/UX flows, REST API validation, and database integrity.
               </li>
+               <li>
+                Mentor 5 QA engineers and establish best practices for web and AI system testing methodologies.
+              </li>
+
             </ul>
           </>
         ),
       },
       {
-        designation: "AI Test Engineer",
-        duration: "February 2021 – February 2022",
+        designation: "Senior AI Test Engineer",
+        duration: "June 2022 – November 2023",
         description: (
           <>
             <ul className="experience-list">
               <li>
-                Developed manual and automated test cases for AI models, focusing on validating functionality, regression, and model reliability.
+                Automated multilingual document OCR QA for CRNN/MaskRCNN pipelines, reducing validation time by 70%.
               </li>
               <li>
-                Wrote Python scripts to automate validation for NLP and computer vision pipelines integrated with CI/CD workflows.
+               Implemented bounding box layout validation techniques, cutting manual verification time by 70% and improv‐ ing accuracy.
               </li>
               <li>
-                Participated in sprint planning, test documentation, and stakeholder reporting.
+                Executed extensive load testing and performance profiling using JMeter and Locust, improving OCR response time by 30%.
+              </li>
+              <li>
+              Collaborated cross‐functionally on micro‐services QA with AWS cloud services (EC2, Lambda, API Gateway) and Dockerized AI workflows.
+              </li>
+              <li>
+               Designed and implemented test automation for selection‐based template matching system with advanced validation protocols.
+              </li>
+            </ul>
+          </>
+        ),
+      },
+
+      {
+        designation: "AI Test Engineer",
+        duration: "March 2021 – May 2022",
+        description: (
+          <>
+            <ul className="experience-list">
+              <li>
+                Delivered comprehensive QA for internal annotation management tool (Annotex) supporting computer vision/NLP datasets, serving 50+ annotators and 3+ ML teams.
+              </li>
+              <li>
+                Validated micro‐services architecture for multilingual NLP and computer vision tasks with focus on data integrity and system reliability.
+              </li>
+              <li>
+                Developed comprehensive API regression test collections and integrated them with GitLab CI for automated validation.
+              </li>
+              <li>
+               Implemented quality metrics tracking and reporting systems for continuous improvement.
               </li>
             </ul>
           </>
@@ -413,10 +446,16 @@ export const workData = [
           <>
             <ul className="experience-list">
               <li>
-                Coordinated cross-functional AI initiatives, managing test strategies and collaborating with engineers to track model development and testing milestones.
+               Oversaw QA coordination for computer vision and NLP‐based demos and annotation prototypes in R&D environment.
               </li>
               <li>
-                Handled test execution, bug reporting, and QA documentation.
+                Managed data preparation, test coverage planning, and user acceptance reviews for research projects.
+              </li>
+              <li>
+               Coordinated with ML teams to establish testing protocols for experimental AI models and systems.
+              </li>
+              <li>
+                Developed documentation and standard operating procedures for prototype testing workflows.
               </li>
             </ul>
           </>
@@ -435,10 +474,13 @@ export const workData = [
           <>
             <ul className="experience-list">
               <li>
-                Engineered computer vision and NLP systems using deep learning techniques and contributed to both development and testing cycles.
+                Tested and validated OCR and NLP systems for Bengali and English data pipelines with focus on accuracy and performance.
               </li>
               <li>
-                Assisted in deploying production-level models and maintained quality benchmarks.
+                Conducted research and development on machine learning model optimization and validation methodologies.
+              </li>
+              <li>
+                Contributed to test design and performance benchmarking for state‐of‐the‐art NLP and computer vision models.
               </li>
             </ul>
           </>
