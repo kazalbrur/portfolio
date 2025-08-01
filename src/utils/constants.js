@@ -369,7 +369,7 @@ export const workData = [
     companyImg: "next_solution_lab_logo.jpeg",
     roles: [
       {
-        designation: "Lead AI Test Engineer",
+        designation: "Lead Software Quality Assurance Engineer",
         duration: "December 2023 – Present",
         description: (
           <>
@@ -392,7 +392,7 @@ export const workData = [
         ),
       },
       {
-        designation: "Senior AI Test Engineer",
+        designation: "Senior Software Quality Assurance Engineer",
         duration: "June 2022 – November 2023",
         description: (
           <>
@@ -418,7 +418,7 @@ export const workData = [
       },
 
       {
-        designation: "AI Test Engineer",
+        designation: "Software Quality Assurance Engineer",
         duration: "March 2021 – May 2022",
         description: (
           <>
@@ -468,7 +468,7 @@ export const workData = [
     companyImg: "Semanticlab.jpeg",
     roles: [
       {
-        designation: "Artificial Intelligence Engineer",
+        designation: "AI Researcher and Developer",
         duration: "August 2018 – December 2019",
         description: (
           <>
