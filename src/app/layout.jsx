@@ -42,7 +42,7 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     url: "https://kazalbrur.github.io/portfolio/", // Recommend switching from vaheedshaik.com
-    title: "Kazal Chandra Barman | AI Test & QA Engineer",
+    title: "Kazal Chandra Barman | Lead Software Quality Assurance Engineer",
     description:
       "Explore Kazal Chandra Barman’s portfolio in AI Testing and Software QA. Specializing in automated testing of machine learning, NLP, and computer vision systems.",
     siteName: "Kazal Chandra Barman Portfolio",
@@ -57,7 +57,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kazal Chandra Barman | AI QA Engineer",
+    title: "Kazal Chandra Barman | Lead Software Quality Assurance Engineer",
     description:
       "Explore Kazal's work in AI quality assurance, automation frameworks, and intelligent systems testing.",
     images: ["./images/og-image.jpg"],
