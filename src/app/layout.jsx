@@ -12,10 +12,10 @@ export const metadata = {
   keywords: [
     "AI Test Engineer",
     "Quality Assurance",
-    "Lead Software Quality Assurance Engineer"
-    "Senior Software Quality Assurance Engineer"
-    "Software Quality Assurance Engineer"
-    "Quality Assurance Engineer"
+    "Lead Software Quality Assurance Engineer",
+    "Senior Software Quality Assurance Engineer",
+    "Software Quality Assurance Engineer",
+    "Quality Assurance Engineer",
     "Software QA",
     "QA Automation",
     "Machine Learning Testing",
