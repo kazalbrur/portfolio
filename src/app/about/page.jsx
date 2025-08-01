@@ -116,49 +116,42 @@ const Page = () => {
                   transform: "translateY(-5px)",
                 }}
               >
-                <Heading
-                  size="xl"
-                  bgGradient={`linear(to-r, ${highlightColor}, ${highlightColor}80)`}
-                  bgClip="text"
-                  fontWeight="bold"
-                >
-                  👋 Hey there
-                </Heading>
+             <Heading
+  size="xl"
+  bgGradient={`linear(to-r, ${highlightColor}, ${highlightColor}80)`}
+  bgClip="text"
+  fontWeight="bold"
+>
+  👋 Hey there
+</Heading>
 
-                <Text fontSize="lg" color={textColor} lineHeight="tall">
-                  I&apos;m{" "}
-                  <span style={{ color: highlightColor, fontWeight: "bold" }}>
-                    Kazal Chandra Barman
-                  </span>
-                  , a seasoned AI Test Engineer with over 5 years of experience
-                  in{" "}
-                  <span style={{ color: highlightColor, fontWeight: "bold" }}>
-                    deep learning, computer vision, and NLP
-                  </span>
-                  . I specialize in building and validating intelligent systems
-                  by blending automated testing with robust QA strategies. I’ve
-                  led high-performing teams and crafted test frameworks that
-                  ensure product excellence in real-world AI applications.
-                </Text>
+<Text fontSize="lg" color={textColor} lineHeight="tall">
+  I&apos;m{" "}
+  <span style={{ color: highlightColor, fontWeight: "bold" }}>
+    Kazal Chandra Barman
+  </span>
+  , a <strong>Lead SQA Engineer</strong> with over 5 years of experience specializing in{" "}
+  <span style={{ color: highlightColor, fontWeight: "bold" }}>
+    AI/ML systems, OCR pipelines, NLP model testing, and web automation
+  </span>
+  . I’ve built scalable QA strategies, designed automation frameworks, and led teams to deliver high-quality releases across fast-paced, AI-driven platforms.
+</Text>
 
-                <Text fontSize="lg" color={textColor} lineHeight="tall" mt={4}>
-                  🚀 Proficient in tools like Cypress, Selenium, Postman, and
-                  PyTest, I thrive in Agile environments, driving CI/CD
-                  practices and continuous quality improvement. From
-                  coordinating large-scale AI projects to hands-on Python
-                  scripting and defect analysis, I bring both leadership and
-                  deep technical insight.
-                </Text>
+<Text fontSize="lg" color={textColor} lineHeight="tall" mt={4}>
+  🚀 Proficient in tools like <strong>Cypress, Selenium, PyTest, Postman</strong>, and performance tools like JMeter and Locust. I integrate QA into CI/CD pipelines using GitLab, Docker, and AWS — ensuring performance, security, and stability in both frontend and backend systems.
+</Text>
 
-                <Text fontSize="lg" color={textColor} lineHeight="tall" mt={4}>
-                  📫 Passionate about innovation, I’m open to collaboration,
-                  research, and forward-thinking projects. Let&apos;s connect
-                  and shape the future of AI and software quality together.
-                </Text>
+<Text fontSize="lg" color={textColor} lineHeight="tall" mt={4}>
+  📸 I’ve led quality efforts in advanced domains like <strong>multilingual OCR (Bangla, English, Japanese)</strong>, computer vision–based virtual try-on platforms, and annotation tools serving multiple ML teams. My testing scope spans UI/UX, API, database, and cross-browser validation — all under Agile environments.
+</Text>
 
-                <Text fontSize="lg" color={textColor} lineHeight="tall" mt={4}>
-                  Happy testing & exploring! 🤖
-                </Text>
+<Text fontSize="lg" color={textColor} lineHeight="tall" mt={4}>
+  💡 Passionate about innovation and quality-first engineering, I’m always eager to explore cutting-edge AI testing strategies and collaborate on meaningful, scalable solutions. Let’s build the future of software quality together!
+</Text>
+
+<Text fontSize="lg" color={textColor} lineHeight="tall" mt={4}>
+  Happy testing & exploring! 🤖
+</Text>
               </VStack>
             </SimpleGrid>
           </VStack>
