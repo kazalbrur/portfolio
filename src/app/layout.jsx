@@ -4,14 +4,18 @@ import Favicon from "/public/images/favicon.png";
 export const metadata = {
   metadataBase: new URL("https://kazalbrur.github.io/portfolio/"), // Recommend using Kazal's domain
   title: {
-    default: "Kazal Chandra Barman | AI Test & QA Engineer",
+    default: "Kazal Chandra Barman | Lead Software Quality Assurance Engineer",
     template: "%s | Kazal Chandra Barman",
   },
   description:
-    "Kazal Chandra Barman is a seasoned AI Test & QA Engineer with 5+ years of experience in machine learning, NLP, and computer vision. Explore his work in test automation, quality assurance, and AI product validation.",
+    "Kazal Chandra Barman is a seasoned Lead Software Quality Assurance Engineerr with 5+ years of experience in machine learning, NLP, and computer vision. Explore his work in test automation, quality assurance, and AI product validation.",
   keywords: [
     "AI Test Engineer",
     "Quality Assurance",
+    "Lead Software Quality Assurance Engineer"
+    "Senior Software Quality Assurance Engineer"
+    "Software Quality Assurance Engineer"
+    "Quality Assurance Engineer"
     "Software QA",
     "QA Automation",
     "Machine Learning Testing",
